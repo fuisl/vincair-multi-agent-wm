@@ -1,0 +1,36 @@
+{
+  "no_safety": {
+    "experiment": "E4-B",
+    "method": "Centralized_CEM",
+    "with_safety": false,
+    "steps": 91,
+    "joint_success": true,
+    "termination": "joint_success",
+    "minimum_separation": 0.20472180843353271,
+    "loss_of_separation": true,
+    "collision_proxy": false,
+    "mean_planning_ms": 234.80701423076923,
+    "p95_planning_ms": 506.51406699998347,
+    "final_goal_distances": [
+      0.010686724446713924,
+      0.11323139816522598
+    ]
+  },
+  "with_safety": {
+    "experiment": "E4-B",
+    "method": "Centralized_CEM",
+    "with_safety": true,
+    "steps": 87,
+    "joint_success": true,
+    "termination": "joint_success",
+    "minimum_separation": 0.2840611934661865,
+    "loss_of_separation": true,
+    "collision_proxy": false,
+    "mean_planning_ms": 154.30496891953953,
+    "p95_planning_ms": 170.28175129999568,
+    "final_goal_distances": [
+      0.0210623387247324,
+      0.1160067617893219
+    ]
+  }
+}

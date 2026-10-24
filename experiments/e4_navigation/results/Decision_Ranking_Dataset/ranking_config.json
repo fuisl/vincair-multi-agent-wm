@@ -1,0 +1,99 @@
+{
+  "rank_config": {
+    "states_per_split": {
+      "train": 72,
+      "val": 24,
+      "test": 24
+    },
+    "candidates_per_state": 64,
+    "horizon": 8,
+    "seed": 2027,
+    "action_std": 0.6,
+    "safe_distance": 0.3,
+    "goal_weight": 5.0,
+    "safety_weight": 100.0,
+    "action_weight": 0.01
+  },
+  "scenarios": {
+    "S1_symmetric": {
+      "starts": [
+        [
+          -0.8,
+          -0.8
+        ],
+        [
+          -0.8,
+          0.8
+        ]
+      ],
+      "goals": [
+        [
+          0.8,
+          0.8
+        ],
+        [
+          0.8,
+          -0.8
+        ]
+      ]
+    },
+    "S2_perpendicular": {
+      "starts": [
+        [
+          -0.8,
+          0.0
+        ],
+        [
+          0.2,
+          0.8
+        ]
+      ],
+      "goals": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.2,
+          -0.8
+        ]
+      ]
+    },
+    "S3_asymmetric": {
+      "starts": [
+        [
+          -0.8,
+          0.5
+        ],
+        [
+          -0.8,
+          -0.8
+        ]
+      ],
+      "goals": [
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          0.8,
+          0.7
+        ]
+      ]
+    }
+  },
+  "cost_config": {
+    "horizon": 8,
+    "population": 64,
+    "iterations": 3,
+    "elite_fraction": 0.125,
+    "goal_weight": 5.0,
+    "safety_weight": 100.0,
+    "action_weight": 0.01,
+    "seed": 42
+  },
+  "rank_direction": "ascending_cost",
+  "dynamics": "True_VMAS",
+  "dataset_type": "random_candidate_pilot",
+  "split_type": "episode_level_seen_scenario"
+}

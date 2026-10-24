@@ -1,0 +1,36 @@
+{
+  "scenario": "E4_S1_crossing",
+  "environment": "VMAS_navigation",
+  "vmas_version": "1.5.2",
+  "torch_version": "2.11.0+cu130",
+  "seed": 42,
+  "max_steps": 200,
+  "starts": [
+    [
+      -0.800000011920929,
+      -0.800000011920929
+    ],
+    [
+      -0.800000011920929,
+      0.800000011920929
+    ]
+  ],
+  "goals": [
+    [
+      0.800000011920929,
+      0.800000011920929
+    ],
+    [
+      0.800000011920929,
+      -0.800000011920929
+    ]
+  ],
+  "kp": 1.5,
+  "kd": 1.0,
+  "safe_distance": 0.3,
+  "goal_tolerance": 0.12,
+  "controllers": [
+    "independent",
+    "priority"
+  ]
+}

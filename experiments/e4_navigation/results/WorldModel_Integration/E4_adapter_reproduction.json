@@ -1,0 +1,20 @@
+{
+  "experiment": "E4_Adapter_Reproduction",
+  "method": "Adapter_Centralized_CEM",
+  "dynamics": "True_VMAs",
+  "with_safety": true,
+  "seed": 42,
+  "steps": 87,
+  "joint_success": true,
+  "termination": "joint_success",
+  "minimum_separation": 0.2840611934661865,
+  "violation_steps": 4,
+  "cumulative_violation": 0.04079578518867488,
+  "collision_proxy": false,
+  "mean_planning_ms": 226.68630042528943,
+  "p95_planning_ms": 496.306101599987,
+  "final_goal_distances": [
+    0.0210623387247324,
+    0.1160067617893219
+  ]
+}

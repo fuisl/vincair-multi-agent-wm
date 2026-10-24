@@ -1,0 +1,15 @@
+{
+  "experiment": "E4_Adapter_Verification",
+  "dynamics": "True_VMAs",
+  "population": 64,
+  "horizon": 8,
+  "state_shape": [
+    64,
+    9,
+    2,
+    4
+  ],
+  "max_one_step_error": 0.0,
+  "consistency_pass": true,
+  "seed": 42
+}

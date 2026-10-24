@@ -1,0 +1,20 @@
+{
+  "adapter": "TrueVMASDynamicsAdapter",
+  "checks": {
+    "population": true,
+    "state_shape": true,
+    "dtype": true,
+    "device": true,
+    "finite": true,
+    "initial_state_match": true,
+    "repeatable": true
+  },
+  "all_passed": true,
+  "predicted_shape": [
+    64,
+    9,
+    2,
+    4
+  ],
+  "max_repeat_error": 0.0
+}

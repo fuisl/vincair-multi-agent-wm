@@ -1,0 +1,10 @@
+{
+  "horizon": 8,
+  "population": 64,
+  "iterations": 3,
+  "elite_fraction": 0.125,
+  "goal_weight": 5.0,
+  "safety_weight": 100.0,
+  "action_weight": 0.01,
+  "seed": 42
+}

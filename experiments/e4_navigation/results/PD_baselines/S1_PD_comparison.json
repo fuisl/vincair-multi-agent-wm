@@ -1,0 +1,38 @@
+{
+  "independent": {
+    "mode": "independent",
+    "steps": 200,
+    "joint_success": false,
+    "termination_reason": "environment_done",
+    "min_separation": 0.14590579271316528,
+    "loss_of_separation": true,
+    "collision_proxy": true,
+    "mean_control_ms": 0.2948131249809194,
+    "path_lengths": [
+      1.9229402542114258,
+      1.9229402542114258
+    ],
+    "final_goal_distances": [
+      0.8950001001358032,
+      0.8950001001358032
+    ]
+  },
+  "priority": {
+    "mode": "priority",
+    "steps": 150,
+    "joint_success": true,
+    "termination_reason": "joint_success",
+    "min_separation": 1.027089238166809,
+    "loss_of_separation": false,
+    "collision_proxy": false,
+    "mean_control_ms": 0.23279019999790762,
+    "path_lengths": [
+      2.158278465270996,
+      2.1473569869995117
+    ],
+    "final_goal_distances": [
+      0.10446307063102722,
+      0.11538466811180115
+    ]
+  }
+}

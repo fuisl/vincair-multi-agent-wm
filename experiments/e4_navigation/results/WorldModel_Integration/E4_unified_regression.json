@@ -1,0 +1,17 @@
+{
+  "experiment": "E4_Unified_CEM_Regression",
+  "dynamics": "True_VMAS",
+  "cost": "State_Safety",
+  "seed": 42,
+  "steps": 87,
+  "joint_success": true,
+  "termination": "joint_success",
+  "minimum_separation": 0.2840611934661865,
+  "violation_steps": 4,
+  "cumulative_violation": 0.04079578518867488,
+  "mean_planning_ms": 165.92943959769673,
+  "final_goal_distances": [
+    0.0210623387247324,
+    0.1160067617893219
+  ]
+}

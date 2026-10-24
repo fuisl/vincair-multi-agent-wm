@@ -1,0 +1,4 @@
+split,mean_initial_distance,min_initial_distance,mean_candidate_min_distance,min_candidate_distance,fraction_below_0.5,fraction_below_0.4,fraction_below_0.3,mean_goal_cost,mean_safety_cost,mean_action_cost
+train,1.3938258,0.99954814,1.3625975,0.87046164,0.0,0.0,0.0,3.95679,0.0,0.12682393
+val,1.4082884,1.2040243,1.3790609,0.98358655,0.0,0.0,0.0,3.929259,0.0,0.12935664
+test,1.3433648,1.1280544,1.3108156,0.8926878,0.0,0.0,0.0,3.9009552,0.0,0.1281883

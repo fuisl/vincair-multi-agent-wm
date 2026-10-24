@@ -1,0 +1,16 @@
+{
+  "no_safety": {
+    "minimum_separation": 0.20472180843353271,
+    "violation_steps": 15,
+    "violation_fraction": 0.16304347826086957,
+    "max_violation_depth": 0.09527819156646727,
+    "cumulative_violation": 0.9090276062488554
+  },
+  "with_safety": {
+    "minimum_separation": 0.2840611934661865,
+    "violation_steps": 4,
+    "violation_fraction": 0.045454545454545456,
+    "max_violation_depth": 0.015938806533813465,
+    "cumulative_violation": 0.04079578518867488
+  }
+}

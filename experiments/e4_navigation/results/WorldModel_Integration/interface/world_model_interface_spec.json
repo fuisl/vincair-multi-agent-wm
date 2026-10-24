@@ -1,0 +1,65 @@
+{
+  "project": "E4 World Model Integration",
+  "version": "0.1",
+  "environment": "VMAS Navigation",
+  "num_agents": 2,
+  "state": {
+    "shape": [
+      "B",
+      2,
+      4
+    ],
+    "features": [
+      "x",
+      "y",
+      "vx",
+      "vy"
+    ],
+    "dtype": "float32"
+  },
+  "actions": {
+    "shape": [
+      "B",
+      "H",
+      2,
+      2
+    ],
+    "dtype": "float32",
+    "limits_per_agent": [
+      1.0,
+      1.0
+    ]
+  },
+  "predictions": {
+    "shape": [
+      "B",
+      "H+1",
+      2,
+      4
+    ],
+    "includes_initial_state": true,
+    "dtype": "float32"
+  },
+  "ranking": {
+    "output_shape": [
+      "B"
+    ],
+    "direction": "lower_is_better",
+    "status": "pending_team_confirmation"
+  },
+  "planning": {
+    "population": 64,
+    "horizon": 8,
+    "iterations": 3,
+    "elite_fraction": 0.125
+  },
+  "model_requirements": {
+    "checkpoint": "pending",
+    "load_function": "pending",
+    "observation_encoder": "pending",
+    "state_decoder": "pending",
+    "normalization": "pending",
+    "history_length": "pending",
+    "trained_environment": "pending"
+  }
+}
